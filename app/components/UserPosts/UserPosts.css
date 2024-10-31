@@ -1,0 +1,30 @@
+aside {
+  margin-bottom: 40px;
+  opacity: 75%;
+}
+
+aside li {
+  border: 1px solid #ffe8cc;
+  padding: 4px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+aside p {
+  cursor: pointer;
+}
+
+h2 + button {
+  margin-bottom: 24px;
+}
+
+aside li button {
+  padding: 4px 8px;
+  font-size: 14px;
+}
+
+.buttonRaper {
+  display: flex;
+  gap: 6px;
+}

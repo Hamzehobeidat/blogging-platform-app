@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 24px;
+  background-color: #fff4e6;
+  gap: 24px;
+}
+
+.form h2 {
+  margin-bottom: 1rem;
+}
+
+.form span {
+  color: red;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.form button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #ffe8cc;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #ffa94d;
+}
